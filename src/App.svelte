@@ -11,7 +11,7 @@
     <Link to="/">Home</Link>
     <Link to="about">About</Link>
   </nav>
-  <div
+  <div>
     <Route path="about" component="{About}" />
     <Route path="/"><Home /></Route>
   </div>
