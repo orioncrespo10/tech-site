@@ -13,8 +13,8 @@
 
 <router url="{url}">
   <nav>
-    <Link to="/">home</link>
-    <Link to="about">about</link>
+    <Link to="/">home</Link>
+    <Link to="about">about</Link>
   </nav>
   <div>
     <route path="about" component="{about}" />
