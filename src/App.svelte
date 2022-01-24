@@ -38,10 +38,6 @@
 </div>
 
 
-	<a href="public/about.svelte">
-<img src="images/aboutbutton.png" alt="about" width "65" height"66">
-	</a>
-
 		<nft-card
   tokenAddress="0x495f947276749ce646f68ac8c248420045cb7b5e"
   tokenId="74910965659129920827967912483173887147949622782888675597174626338947519741953"
