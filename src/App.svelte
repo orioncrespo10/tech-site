@@ -1,5 +1,3 @@
-
-<main>
 <script>
   import { Router, Link, Route } from "svelte-routing";
   import Home from "./routes/home.svelte";
@@ -7,7 +5,6 @@
 
   export let url = "";
 </script>
-
 <Router url="{url}">
   <nav>
     <Link to="/">Home</Link>
@@ -18,7 +15,6 @@
     <Route path="/"><Home /></Route>
   </div>
 </Router>
-</main>
 	<h1>Anker {name}</h1>
 
 		<p class=" bd-textblock-10 bd-content-element">
