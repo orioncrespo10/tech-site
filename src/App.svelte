@@ -1,4 +1,5 @@
-<!-- App.svelte -->
+
+<main>
 <script>
   import { Router, Link, Route } from "svelte-routing";
   import Home from "./routes/home.svelte";
@@ -17,7 +18,7 @@
     <Route path="/"><Home /></Route>
   </div>
 </Router>
-<main>
+</main>
 	<h1>Anker {name}</h1>
 
 		<p class=" bd-textblock-10 bd-content-element">
