@@ -18,6 +18,7 @@
     <Route path="/"><Home /></Route>
   </div>
 </Router>
+</head>
 
 <body>
 
