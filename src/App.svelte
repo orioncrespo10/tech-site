@@ -20,7 +20,7 @@
     <route path="/"><home /></route>
   </div>
 </router>
-</center>
+
 
 <center>
 		<p class=" bd-textblock-10 bd-content-element">
