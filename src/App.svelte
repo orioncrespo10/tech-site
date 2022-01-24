@@ -10,7 +10,6 @@
 
 
 	<h1>Anker {name}</h1>
-<center>
 <router url="{url}">
   <nav>
     <Link to="/">home</Link>
@@ -23,7 +22,7 @@
 </router>
 </center>
 
-
+<center>
 		<p class=" bd-textblock-10 bd-content-element">
 			<b> Because we need older members but not over 21 for the safety of our members.</b>&nbsp;
 </p>
@@ -32,6 +31,7 @@
 </p>
 
 	<li><b>Requirements:</b>&nbsp;</li><li>Must have mic</li><li>Must have Discord</li><li>Must be over level 100 on COD Mobile</li>
+</center>
 	<div class="row">
   <div class="column">
 	  <b><small>These are Orions socials and please donate!</small></b>
