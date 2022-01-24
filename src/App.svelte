@@ -1,6 +1,6 @@
 <!-- App.svelte -->
 <script>
-  import { Router, Link, Route } from "svelte-routing";
+  import { router, link, route } from "svelte-routing";
   import Home from "./routes/home.svelte";
   import About from "./routes/about.svelte";
   export let url = "";
@@ -11,16 +11,16 @@
 
 	<h1>Anker {name}</h1>
 
-<Router url="{url}">
+<router url="{url}">
   <nav>
-    <Link to="/">home</Link>
-    <Link to="about">about</Link>
+    <Link to="/">home</link>
+    <Link to="about">about</link>
   </nav>
   <div>
-    <Route path="about" component="{About}" />
-    <Route path="/"><home /></Route>
+    <route path="about" component="{about}" />
+    <route path="/"><home /></route>
   </div>
-</Router>
+</router>
 
 
 		<p class=" bd-textblock-10 bd-content-element">
