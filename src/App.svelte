@@ -6,6 +6,11 @@
   export let url = "";
 </script>
 
+
+
+
+	<h1>Anker {name}</h1>
+
 <Router url="{url}">
   <nav>
     <Link to="/">Home</Link>
@@ -17,9 +22,6 @@
   </div>
 </Router>
 
-
-
-	<h1>Anker {name}</h1>
 
 		<p class=" bd-textblock-10 bd-content-element">
 			<b> Because we need older members but not over 21 for the safety of our members.</b>&nbsp;
