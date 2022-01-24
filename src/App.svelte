@@ -6,10 +6,9 @@
   export let url = "";
 </script>
 
+<h1>Anker {name}</h1>
 
 
-
-	<h1>Anker {name}</h1>
 <router url="{url}">
   <nav>
     <Link to="/">home</Link>
@@ -22,7 +21,6 @@
 </router>
 
 
-<center>
 		<p class=" bd-textblock-10 bd-content-element">
 			<b> Because we need older members but not over 21 for the safety of our members.</b>&nbsp;
 </p>
@@ -31,26 +29,29 @@
 </p>
 
 	<li><b>Requirements:</b>&nbsp;</li><li>Must have mic</li><li>Must have Discord</li><li>Must be over level 100 on COD Mobile</li>
-</center>
 	<div class="row">
   <div class="column">
 	  <b><small>These are Orions socials and please donate!</small></b>
 	  <br>
-       <a href="https://www.paypal.com/paypalme/orioncrespo45">
+       <a>
+	       href="https://www.paypal.com/paypalme/orioncrespo45">
 <img src ="images/Paypal.png" alt="paypal" width="65" height="66">
 </a>
 
-	<a href="https://twitter.com/orioncrespo10">
+	<a>
+		href="https://twitter.com/orioncrespo10">
 <img src="images/twitter--v2.gif" alt="twitter" width="65" height="66">
 </a>
 
-	<a href="https://www.facebook.com/baize.riot">
+	<a>
+		href="https://www.facebook.com/baize.riot">
 <img src="images/faceb.svg" alt="facebook" width="65" height="66">
 </a>
 	  </div>
   <div class="column">
 
-	 <a href="https://www.instagram.com/orioncrespo15/">
+	 <a>
+		 href="https://www.instagram.com/orioncrespo15/">
 <img src="images/insta.jpeg" alt="instagram" width="65" height="66">
 </a>
 
