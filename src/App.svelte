@@ -1,9 +1,23 @@
+<!-- App.svelte -->
 <script>
-import { Router, Link, Route } from "svelte-routing";
-import Home from "./routes/home.svelte";
-import About from "./routes/about.svelte";
-export let name;
+  import { Router, Link, Route } from "svelte-routing";
+  import Home from "./routes/Home.svelte";
+  import About from "./routes/About.svelte";
+  export let url = "";
 </script>
+
+<Router url="{url}">
+  <nav>
+    <Link to="/">Home</Link>
+    <Link to="about">About</Link>
+  </nav>
+  <div
+    <Route path="about" component="{About}" />
+    <Route path="/"><Home /></Route>
+  </div>
+</Router>
+
+
 
 	<h1>Anker {name}</h1>
 
@@ -40,10 +54,7 @@ export let name;
 	  </div>
 </div>
 
-<nav>
-	<a  href="/">Home</a>
-	<a href="/#/about">About</a>
-</nav>
+
 
 
 
