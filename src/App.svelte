@@ -10,7 +10,7 @@
 
 
 	<h1>Anker {name}</h1>
-
+<center>
 <router url="{url}">
   <nav>
     <Link to="/">home</Link>
@@ -21,6 +21,7 @@
     <route path="/"><home /></route>
   </div>
 </router>
+</center>
 
 
 		<p class=" bd-textblock-10 bd-content-element">
