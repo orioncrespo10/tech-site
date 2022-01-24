@@ -1,5 +1,8 @@
 <script>
-	export let name;
+import { Router, Link, Route } from "svelte-routing";
+import Home from "./routes/home.svelte";
+import About from "./routes/about.svelte";
+export let name;
 </script>
 
 	<h1>Anker {name}</h1>
@@ -36,13 +39,6 @@
 
 	  </div>
 </div>
-
-<script>
-  import { Router, Link, Route } from "svelte-routing";
-  import Home from "./routes/home.svelte";
-  import About from "./routes/about.svelte";
-  export let url = "";
-</script>
 
 <Router url="{url}">
   <nav>
