@@ -1,8 +1,8 @@
 <!-- App.svelte -->
 <script>
   import { Router, Link, Route } from "svelte-routing";
-  import Home from "./routes/Home.svelte";
-  import About from "./routes/About.svelte";
+  import Home from "./routes/home.svelte";
+  import About from "./routes/about.svelte";
 
   export let url = "";
 </script>
