@@ -40,16 +40,12 @@ export let name;
 	  </div>
 </div>
 
-<Router url="{url}">
-  <nav>
-    <Link to="/">Home</Link>
-    <Link to="about">About</Link>
-  </nav>
-  <div>
-    <Route path="about" component="{About}" />
-    <Route path="/"><Home /></Route>
-  </div>
-</Router>
+<nav>
+	<a  href="/">Home</a>
+	<a href="/#/about">About</a>
+</nav>
+
+
 
 
 		<nft-card
