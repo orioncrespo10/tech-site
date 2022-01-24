@@ -13,12 +13,12 @@
 
 <Router url="{url}">
   <nav>
-    <Link to="/">Home</Link>
-    <Link to="about">About</Link>
+    <Link to="/">home</Link>
+    <Link to="about">about</Link>
   </nav>
   <div>
     <Route path="about" component="{About}" />
-    <Route path="/"><Home /></Route>
+    <Route path="/"><home /></routes>
   </div>
 </Router>
 
