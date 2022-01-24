@@ -1,24 +1,7 @@
-<!-- App.svelte -->
-<head>
 <script>
-  import { Router, Link, Route } from "svelte-routing";
-  import Home from "./routes/home.svelte";
-  import About from "./routes/about.svelte";
-
-  export let url = "";
+	export let name;
 </script>
 
-<Router url="{url}">
-  <nav>
-    <Link to="/">Home</Link>
-    <Link to="about">About</Link>
-  </nav>
-  <div>
-    <Route path="about" component="{About}" />
-    <Route path="/"><Home /></Route>
-  </div>
-</Router>
-</head>
 	<h1>Anker {name}</h1>
 
 		<p class=" bd-textblock-10 bd-content-element">
@@ -53,6 +36,24 @@
 
 	  </div>
 </div>
+
+<script>
+  import { Router, Link, Route } from "svelte-routing";
+  import Home from "./routes/home.svelte";
+  import About from "./routes/about.svelte";
+  export let url = "";
+</script>
+
+<Router url="{url}">
+  <nav>
+    <Link to="/">Home</Link>
+    <Link to="about">About</Link>
+  </nav>
+  <div>
+    <Route path="about" component="{About}" />
+    <Route path="/"><Home /></Route>
+  </div>
+</Router>
 
 
 		<nft-card
