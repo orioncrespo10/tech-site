@@ -61,7 +61,6 @@
 	<br>
 	Contact Orion for prices to get your NFT listed on our page.
 
-</main>
 <style>
 	main {
 		text-align: center;
