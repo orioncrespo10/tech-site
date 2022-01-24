@@ -12,7 +12,7 @@
 <Router url="{url}">
   <nav>
     <Link to="/">Home</Link>
-    <Link to="About">about</Link>
+    <Link to="About">About</Link>
   </nav>
   <div>
     <Route path="About" component="{About}" />
