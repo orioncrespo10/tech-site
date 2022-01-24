@@ -3,7 +3,6 @@
   import { Router, Link, Route } from "svelte-routing";
   import Home from "./routes/home.svelte";
   import About from "./routes/about.svelte";
-  import Blog from "./routes/blog.svelte";
 
   export let url = "";
 </script>
@@ -12,10 +11,8 @@
   <nav>
     <Link to="/">Home</Link>
     <Link to="about">About</Link>
-    <Link to="blog">Blog</Link>
   </nav>
   <div>
-    <Route path="blog" component="{Blog}" />
     <Route path="about" component="{About}" />
     <Route path="/"><Home /></Route>
   </div>
